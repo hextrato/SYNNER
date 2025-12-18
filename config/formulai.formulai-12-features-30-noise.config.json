@@ -1,0 +1,82 @@
+{
+    "datapath": "../datasets",
+    "embdpath": "../embeddings",
+    "datafolder": "formulai",
+    "dataset": "formulai-12-features-30-noise",
+    "drop-columns": [],
+    "subject-column": "sample",
+    "subject-type": "sample",
+    "labels": [
+        "label"
+    ],
+    "target-label-values": [
+        "R"
+    ],
+    "include-labels": false,
+    "continuous-features": [
+        "Fv6",
+        "Fv7",
+        "Fv8",
+        "Fv9",
+        "Fv10",
+        "Fv11"
+    ],
+    "continuous-margin": 0.1,
+    "continuous-ranges": {
+        "Fv6": [
+            -1.13998,
+            10.13978
+        ],
+        "Fv7": [
+            -1.13988,
+            10.13988
+        ],
+        "Fv8": [
+            -1.13988,
+            10.13988
+        ],
+        "Fv9": [
+            -1.1399899999999998,
+            10.13989
+        ],
+        "Fv10": [
+            -1.1399899999999998,
+            10.13989
+        ],
+        "Fv11": [
+            -1.14,
+            10.139999999999999
+        ]
+    },
+    "types": {
+        "label": "label",
+        "Fc0": "Fc0",
+        "Fc1": "Fc1",
+        "Fc2": "Fc2",
+        "Fc3": "Fc3",
+        "Fc4": "Fc4",
+        "Fc5": "Fc5",
+        "Fv6": "Fv6",
+        "Fv7": "Fv7",
+        "Fv8": "Fv8",
+        "Fv9": "Fv9",
+        "Fv10": "Fv10",
+        "Fv11": "Fv11"
+    },
+    "synner": {
+        "sample": ["replicate",1.0],
+        "label": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc0": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc1": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc2": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc3": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc4": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc5": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fv6": ["replicate",0.0,"continuous_weighted_average",0,"positive"],
+        "Fv7": ["replicate",0.0,"continuous_weighted_average",0,"positive"],
+        "Fv8": ["replicate",0.0,"continuous_weighted_average",0,"positive"],
+        "Fv9": ["replicate",0.0,"continuous_weighted_average",0,"positive"],
+        "Fv10":["replicate",0.0,"continuous_weighted_average",0,"positive"],
+        "Fv11":["replicate",0.0,"continuous_weighted_average",0,"positive"]
+    }
+}

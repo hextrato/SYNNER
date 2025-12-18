@@ -1,0 +1,45 @@
+{
+    "datapath": "../datasets",
+    "embdpath": "../embeddings",
+    "datafolder": "formulai_easy",
+    "dataset": "formulai-04-features-10-noise",
+    "drop-columns": [],
+    "subject-column": "sample",
+    "subject-type": "sample",
+    "labels": [
+        "label"
+    ],
+    "target-label-values": [
+        [
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "V"
+        ]
+    ],
+    "include-labels": false,
+    "continuous-features": [
+        "Fv2",
+        "Fv3"
+    ],
+    "continuous-margin": 0.1,
+    "types": {
+        "label": "label",
+        "Fc0": "Fc0",
+        "Fc1": "Fc1",
+        "Fv2": "Fv2",
+        "Fv3": "Fv3"
+    },
+    "continuous-ranges": {
+        "Fv2": [
+            -0.9544400000000002,
+            9.90724
+        ],
+        "Fv3": [
+            -0.95467,
+            9.90497
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "ChestXray": {
+        "label": "ChestXray",
+        "label-def": [
+            "Plethoric",
+            0.253976226
+        ],
+        "10": {
+            "label-value": "Plethoric",
+            "label-ratio": 0.253976226,
+            "f1-score": {
+                "DS": 0.4729981378026071,
+                "DS-Syn": 0.6396396396396397,
+                "DS-Emb": 0.6087484811664642,
+                "DS-Syn-Emb": 0.7001675041876047
+            }
+        }
+    },
+    "XrayReport": {
+        "label": "XrayReport",
+        "label-def": [
+            "Asy/Patchy",
+            0.106562866
+        ],
+        "10": {
+            "label-value": "Asy/Patchy",
+            "label-ratio": 0.106562866,
+            "f1-score": {
+                "DS": 0.32304900181488205,
+                "DS-Syn": 0.403125,
+                "DS-Emb": 0.38645980253878703,
+                "DS-Syn-Emb": 0.40059790732436473
+            }
+        }
+    },
+    "LungFlow": {
+        "label": "LungFlow",
+        "label-def": [
+            "High",
+            0.38347564
+        ],
+        "10": {
+            "label-value": "High",
+            "label-ratio": 0.38347564,
+            "f1-score": {
+                "DS": 0.5462667517549458,
+                "DS-Syn": 0.6223175965665236,
+                "DS-Emb": 0.630095238095238,
+                "DS-Syn-Emb": 0.6931665922286735
+            }
+        }
+    }
+}

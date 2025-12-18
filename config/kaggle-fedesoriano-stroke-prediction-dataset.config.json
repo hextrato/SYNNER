@@ -1,0 +1,156 @@
+{
+    "datapath": "../datasets",
+    "embdpath": "../embeddings",
+    "datafolder": "kaggle-fedesoriano-stroke-prediction-dataset",
+    "dataset": "kaggle-fedesoriano-stroke-prediction-dataset",
+    "drop-columns": [],
+    "subject-column": "id",
+    "subject-type": "id",
+    "labels": [
+        "stroke"
+    ],
+    "target-label-values": [
+        [
+            1
+        ]
+    ],
+    "privacy-labels": {
+        "smoking_status": [
+            "never smoked",
+            0.047397997
+        ],
+        "work_type": [
+            "Govt_job",
+            0.127779135
+        ],
+        "heart_disease": [
+            1,
+            0.054238945
+        ],
+        "hypertension": [
+            1,
+            0.09675055
+        ],
+        "age": [
+            0.08,
+            82,
+            43.24206206,
+            22.56651538
+        ],
+        "avg_glucose_level": [
+            55.12,
+            267.76,
+            105.5484364,
+            45.14193915
+        ],
+        "bmi": [
+            10.3,
+            97.6,
+            28.92621409,
+            7.826976295
+        ]
+    },
+    "include-labels": false,
+    "types": {
+        "id": "id",
+        "gender": "gender",
+        "age": "age",
+        "hypertension": "hypertension",
+        "heart_disease": "heart_disease",
+        "ever_married": "ever_married",
+        "work_type": "work_type",
+        "Residence_type": "Residence_type",
+        "avg_glucose_level": "avg_glucose_level",
+        "bmi": "bmi",
+        "smoking_status": "smoking_status",
+        "stroke": "stroke"
+    },
+    "continuous-features": [
+        "age",
+        "avg_glucose_level",
+        "bmi"
+    ],
+    "continuous-margin": 0.2,
+    "continuous-ranges": {
+        "age": [
+            -16.304000000000002,
+            98.384
+        ],
+        "avg_glucose_level": [
+            11.795999999999992,
+            315.064
+        ],
+        "bmi": [
+            -7.16,
+            115.06
+        ]
+    },
+    "synner": {
+        "id": [
+            "replicate",
+            0.0,
+            "link_random_uuid",
+            "ROWID"
+        ],
+        "gender": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "age": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "hypertension": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "heart_disease": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "ever_married": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "work_type": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Residence_type": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "avg_glucose_level": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "bmi": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "smoking_status": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "stroke": [
+            "replicate",
+            1.0
+        ]
+    }
+}

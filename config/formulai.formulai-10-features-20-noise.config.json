@@ -1,0 +1,73 @@
+{
+    "datapath": "../datasets",
+    "embdpath": "../embeddings",
+    "datafolder": "formulai",
+    "dataset": "formulai-10-features-20-noise",
+    "drop-columns": [],
+    "subject-column": "sample",
+    "subject-type": "sample",
+    "labels": [
+        "label"
+    ],
+    "target-label-values": [
+        "R"
+    ],
+    "include-labels": false,
+    "continuous-features": [
+        "Fv5",
+        "Fv6",
+        "Fv7",
+        "Fv8",
+        "Fv9"
+    ],
+    "continuous-margin": 0.1,
+    "continuous-ranges": {
+        "Fv5": [
+            -1.07996,
+            10.079559999999999
+        ],
+        "Fv6": [
+            -1.08,
+            10.08
+        ],
+        "Fv7": [
+            -1.08,
+            10.08
+        ],
+        "Fv8": [
+            -1.08,
+            10.08
+        ],
+        "Fv9": [
+            -1.08,
+            10.08
+        ]
+    },
+    "types": {
+        "label": "label",
+        "Fc0": "Fc0",
+        "Fc1": "Fc1",
+        "Fc2": "Fc2",
+        "Fc3": "Fc3",
+        "Fc4": "Fc4",
+        "Fv5": "Fv5",
+        "Fv6": "Fv6",
+        "Fv7": "Fv7",
+        "Fv8": "Fv8",
+        "Fv9": "Fv9"
+    },
+    "synner": {
+        "sample": ["replicate",1.0],
+        "label": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc0": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc1": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc2": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc3": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fc4": ["replicate",0.0,"categorical_weighted_random_choice"],
+        "Fv5": ["replicate",0.0,"continuous_weighted_average",0,"positive"],
+        "Fv6": ["replicate",0.0,"continuous_weighted_average",0,"positive"],
+        "Fv7": ["replicate",0.0,"continuous_weighted_average",0,"positive"],
+        "Fv8": ["replicate",0.0,"continuous_weighted_average",0,"positive"],
+        "Fv9": ["replicate",0.0,"continuous_weighted_average",0,"positive"]
+    }
+}

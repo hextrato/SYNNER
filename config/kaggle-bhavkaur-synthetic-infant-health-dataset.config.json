@@ -1,0 +1,177 @@
+{
+    "datapath": "../datasets",
+    "embdpath": "../embeddings",
+    "datafolder": "kaggle-bhavkaur-synthetic-infant-health-dataset",
+    "dataset": "Synthetic-Infant-Health-Data",
+    "drop-columns": [],
+    "subject-column": "ROWID",
+    "subject-type": "ROWID",
+    "labels": [
+        "Sick"
+    ],
+    "target-label-values": [
+        [
+            "yes"
+        ]
+    ],
+    "privacy-labels": {
+		"ChestXray": ["Plethoric",0.253976226],
+		"XrayReport": ["Asy/Patchy",0.106562866],
+		"LungFlow": ["High",0.38347564]
+	},
+    "privacy-labels-ALL": {
+		"BirthAsphyxia": ["yes",0.026284949],
+		"HypDistrib": ["Unequal",0.026954629],
+		"HypoxiaInO2": ["Mild",0.078436297],
+		"CO2": ["High",0.136614766],
+		"ChestXray": ["Plethoric",0.253976226],
+		"Grunting": ["yes",0.123304872],
+		"LVHreport": ["yes",0.199899548],
+		"LowerBodyO2": ["12+",0.091913611],
+		"RUQO2": ["12+",0.103298175],
+		"CO2Report": [">=7.5",0.161560355],
+		"XrayReport": ["Asy/Patchy",0.106562866],
+		"Disease": ["TAPVD",0.048468106],
+		"GruntingReport": ["yes",0.159049054],
+		"Age": ["4-10_days",0.17654445],
+		"LVH": ["yes",0.189100954],
+		"DuctFlow": ["Rt_to_Lt",0.075673866],
+		"CardiacMixing": ["Mild",0.066716893],
+		"LungParench": ["Abnormal",0.137702997],
+		"LungFlow": ["High",0.38347564]
+	},
+    "include-labels": false,
+    "types": {
+        "BirthAsphyxia": "BirthAsphyxia",
+        "HypDistrib": "HypDistrib",
+        "HypoxiaInO2": "HypoxiaInO2",
+        "CO2": "CO2",
+        "ChestXray": "ChestXray",
+        "Grunting": "Grunting",
+        "LVHreport": "LVHreport",
+        "LowerBodyO2": "LowerBodyO2",
+        "RUQO2": "RUQO2",
+        "CO2Report": "CO2Report",
+        "XrayReport": "XrayReport",
+        "Disease": "Disease",
+        "GruntingReport": "GruntingReport",
+        "Age": "Age",
+        "LVH": "LVH",
+        "DuctFlow": "DuctFlow",
+        "CardiacMixing": "CardiacMixing",
+        "LungParench": "LungParench",
+        "LungFlow": "LungFlow",
+        "Sick": "Sick"
+    },
+    "continuous-features": [],
+    "continuous-margin": 0.1,
+    "continuous-ranges": {},
+    "synner": {
+        "ROWID": [
+            "replicate",
+            0.0,
+            "link_random_uuid",
+            "ROWID"
+        ],
+        "BirthAsphyxia": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "HypDistrib": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "HypoxiaInO2": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "CO2": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "ChestXray": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Grunting": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "LVHreport": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "LowerBodyO2": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "RUQO2": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "CO2Report": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "XrayReport": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Disease": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "GruntingReport": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Age": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "LVH": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "DuctFlow": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "CardiacMixing": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "LungParench": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "LungFlow": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Sick": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ]
+    }
+}

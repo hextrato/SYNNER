@@ -1,0 +1,294 @@
+{
+    "Patient Age": {
+        "label": "Patient Age",
+        "label-def": [
+            0,
+            14,
+            6.988876732,
+            4.324620684
+        ],
+        "8": {
+            "label-stdev": 4.324620684,
+            "mrr-score": {
+                "DS        ": 0.5719648552060809,
+                "DS-Syn    ": 0.6137917653321012,
+                "DS-Emb    ": 0.7223148387288004,
+                "DS-Syn-Emb": 0.7389411047578683
+            }
+        }
+    },
+    "Blood cell count (mcL)": {
+        "label": "Blood cell count (mcL)",
+        "label-def": [
+            4.092727034,
+            5.60982897,
+            4.899184054,
+            0.199557857
+        ],
+        "8": {
+            "label-stdev": 0.199557857,
+            "mrr-score": {
+                "DS        ": 0.5993158209896942,
+                "DS-Syn    ": 0.6162770370187679,
+                "DS-Emb    ": 0.7186691879690639,
+                "DS-Syn-Emb": 0.7312998017104033
+            }
+        }
+    },
+    "White Blood cell count (thousand per microliter)": {
+        "label": "White Blood cell count (thousand per microliter)",
+        "label-def": [
+            3,
+            12,
+            7.494205799,
+            2.648636895
+        ],
+        "8": {
+            "label-stdev": 2.648636895,
+            "mrr-score": {
+                "DS        ": 0.5842946691773109,
+                "DS-Syn    ": 0.6215737347519276,
+                "DS-Emb    ": 0.7387498142852509,
+                "DS-Syn-Emb": 0.7603271010946915
+            }
+        }
+    },
+    "Respiratory Rate (breaths/min)": {
+        "label": "Respiratory Rate (breaths/min)",
+        "label-def": [
+            "Tachypnea",
+            0.446014986
+        ],
+        "8": {
+            "label-value": "Tachypnea",
+            "label-ratio": 0.446014986,
+            "f1-score": {
+                "DS        ": 0.6076649545634136,
+                "DS-Syn    ": 0.6165058105180224,
+                "DS-Emb    ": 0.6127508854781583,
+                "DS-Syn-Emb": 0.6151162790697674
+            }
+        }
+    },
+    "Heart Rate (rates/min": {
+        "label": "Heart Rate (rates/min",
+        "label-def": [
+            "Tachycardia",
+            0.444425522
+        ],
+        "8": {
+            "label-value": "Tachycardia",
+            "label-ratio": 0.444425522,
+            "f1-score": {
+                "DS        ": 0.622848200312989,
+                "DS-Syn    ": 0.6135379771743408,
+                "DS-Emb    ": 0.6155934833204034,
+                "DS-Syn-Emb": 0.6152055857253685
+            }
+        }
+    },
+    "Follow-up": {
+        "label": "Follow-up",
+        "label-def": [
+            "High",
+            0.448172116
+        ],
+        "8": {
+            "label-value": "High",
+            "label-ratio": 0.448172116,
+            "f1-score": {
+                "DS        ": 0.6196403872752421,
+                "DS-Syn    ": 0.6204193611601019,
+                "DS-Emb    ": 0.6160696999031946,
+                "DS-Syn-Emb": 0.6158017041053447
+            }
+        }
+    },
+    "Birth asphyxia": {
+        "label": "Birth asphyxia",
+        "label-def": [
+            "Yes",
+            0.230869664
+        ],
+        "8": {
+            "label-value": "Yes",
+            "label-ratio": 0.230869664,
+            "f1-score": {
+                "DS        ": 0.34122448979591835,
+                "DS-Syn    ": 0.3890577507598784,
+                "DS-Emb    ": 0.36654478976234006,
+                "DS-Syn-Emb": 0.36671239140374945
+            }
+        }
+    },
+    "Autopsy shows birth defect (if applicable)": {
+        "label": "Autopsy shows birth defect (if applicable)",
+        "label-def": [
+            "Yes",
+            0.154632153
+        ],
+        "8": {
+            "label-value": "Yes",
+            "label-ratio": 0.154632153,
+            "f1-score": {
+                "DS        ": 0.47577092511013214,
+                "DS-Syn    ": 0.4539767649687221,
+                "DS-Emb    ": 0.46887966804979253,
+                "DS-Syn-Emb": 0.46941323345817726
+            }
+        }
+    },
+    "Folic acid details (peri-conceptional)": {
+        "label": "Folic acid details (peri-conceptional)",
+        "label-def": [
+            "Yes",
+            0.457254768
+        ],
+        "8": {
+            "label-value": "Yes",
+            "label-ratio": 0.457254768,
+            "f1-score": {
+                "DS        ": 0.626778405768856,
+                "DS-Syn    ": 0.6223612197028929,
+                "DS-Emb    ": 0.6274961597542242,
+                "DS-Syn-Emb": 0.6274961597542242
+            }
+        }
+    },
+    "H/O serious maternal illness": {
+        "label": "H/O serious maternal illness",
+        "label-def": [
+            "Yes",
+            0.448512716
+        ],
+        "8": {
+            "label-value": "Yes",
+            "label-ratio": 0.448512716,
+            "f1-score": {
+                "DS        ": 0.6142042101121385,
+                "DS-Syn    ": 0.616577221228384,
+                "DS-Emb    ": 0.625648913670448,
+                "DS-Syn-Emb": 0.6253369272237197
+            }
+        }
+    },
+    "H/O radiation exposure (x-ray)": {
+        "label": "H/O radiation exposure (x-ray)",
+        "label-def": [
+            "Yes",
+            0.228201635
+        ],
+        "8": {
+            "label-value": "Yes",
+            "label-ratio": 0.228201635,
+            "f1-score": {
+                "DS        ": 0.3834780567941798,
+                "DS-Syn    ": 0.3873626373626374,
+                "DS-Emb    ": 0.3702690378476972,
+                "DS-Syn-Emb": 0.3585833743236596
+            }
+        }
+    },
+    "H/O substance abuse": {
+        "label": "H/O substance abuse",
+        "label-def": [
+            "Yes",
+            0.22513624
+        ],
+        "8": {
+            "label-value": "Yes",
+            "label-ratio": 0.22513624,
+            "f1-score": {
+                "DS        ": 0.3620729723448757,
+                "DS-Syn    ": 0.3449248120300752,
+                "DS-Emb    ": 0.35782279716866,
+                "DS-Syn-Emb": 0.3603396832683039
+            }
+        }
+    },
+    "Assisted conception IVF/ART": {
+        "label": "Assisted conception IVF/ART",
+        "label-def": [
+            "Yes",
+            0.453735241
+        ],
+        "8": {
+            "label-value": "Yes",
+            "label-ratio": 0.453735241,
+            "f1-score": {
+                "DS        ": 0.6230663794791462,
+                "DS-Syn    ": 0.6225113345160654,
+                "DS-Emb    ": 0.6274961597542242,
+                "DS-Syn-Emb": 0.6254335260115607
+            }
+        }
+    },
+    "History of anomalies in previous pregnancies": {
+        "label": "History of anomalies in previous pregnancies",
+        "label-def": [
+            "Yes",
+            0.457992734
+        ],
+        "8": {
+            "label-value": "Yes",
+            "label-ratio": 0.457992734,
+            "f1-score": {
+                "DS        ": 0.6236263736263736,
+                "DS-Syn    ": 0.6260733801717409,
+                "DS-Emb    ": 0.6219394640447272,
+                "DS-Syn-Emb": 0.6216737369841882
+            }
+        }
+    },
+    "No. of previous abortion": {
+        "label": "No. of previous abortion",
+        "label-def": [
+            0,
+            0.179950045
+        ],
+        "8": {
+            "label-value": 0,
+            "label-ratio": 0.179950045,
+            "f1-score": {
+                "DS        ": 0.3051744885679904,
+                "DS-Syn    ": 0.33217993079584773,
+                "DS-Emb    ": 0.2755417956656347,
+                "DS-Syn-Emb": 0.30073487846240815
+            }
+        }
+    },
+    "Birth defects": {
+        "label": "Birth defects",
+        "label-def": [
+            "Multiple",
+            0.450726612
+        ],
+        "8": {
+            "label-value": "Multiple",
+            "label-ratio": 0.450726612,
+            "f1-score": {
+                "DS        ": 0.6239717978848414,
+                "DS-Syn    ": 0.6216801101711588,
+                "DS-Emb    ": 0.6185965590566402,
+                "DS-Syn-Emb": 0.613841918993315
+            }
+        }
+    },
+    "Blood test result": {
+        "label": "Blood test result",
+        "label-def": [
+            "abnormal",
+            0.223262943
+        ],
+        "8": {
+            "label-value": "abnormal",
+            "label-ratio": 0.223262943,
+            "f1-score": {
+                "DS        ": 0.38143382352941174,
+                "DS-Syn    ": 0.3540401681457263,
+                "DS-Emb    ": 0.3662551440329218,
+                "DS-Syn-Emb": 0.364943194991885
+            }
+        }
+    }
+}

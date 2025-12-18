@@ -1,0 +1,166 @@
+{
+    "datapath": "../datasets",
+    "embdpath": "../embeddings",
+    "datafolder": "kaggle-uciml-mushroom-classification",
+    "dataset": "mushroom",
+    "drop-columns": [],
+    "subject-column": "MSID",
+    "subject-type": "MUSHROOM",
+    "labels": [
+        "target-label"
+    ],
+    "target-label-values": [
+        [
+            "POISONOUS"
+        ]
+    ],
+    "include-labels": false,
+    "types": {
+        "target-label": "label",
+        "cap-shape": "shape",
+        "cap-surface": "surface",
+        "cap-color": "color",
+        "bruises": "bruises",
+        "odor": "odor",
+        "gill-attachment": "attachment",
+        "gill-spacing": "spacing",
+        "gill-size": "size",
+        "gill-color": "color",
+        "stalk-shape": "shape",
+        "stalk-root": "root",
+        "stalk-surface-above-ring": "surface",
+        "stalk-surface-below-ring": "surface",
+        "stalk-color-above-ring": "color",
+        "stalk-color-below-ring": "color",
+        "veil-type": "type",
+        "veil-color": "color",
+        "ring-number": "number",
+        "ring-type": "type",
+        "spore-print-color": "color",
+        "population": "population",
+        "habitat": "habitat"
+    },
+    "continuous-features": [],
+    "continuous-margin": 0.1,
+    "continuous-ranges": {},
+    "synner": {
+        "MSID": [
+            "replicate",
+            1.0
+        ],
+        "target-label": [
+            "replicate",
+            1.0
+        ],
+        "cap-shape": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "cap-surface": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "cap-color": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "bruises": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "odor": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "gill-attachment": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "gill-spacing": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "gill-size": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "gill-color": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "stalk-shape": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "stalk-root": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "stalk-surface-above-ring": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "stalk-surface-below-ring": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "stalk-color-above-ring": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "stalk-color-below-ring": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "veil-type": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "veil-color": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "ring-number": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "ring-type": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "spore-print-color": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "population": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "habitat": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ]
+    }
+}

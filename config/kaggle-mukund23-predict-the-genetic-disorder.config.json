@@ -1,0 +1,387 @@
+{
+    "datapath": "../datasets",
+    "embdpath": "../embeddings",
+    "datafolder": "kaggle-mukund23-predict-the-genetic-disorder",
+    "dataset": "kaggle-mukund23-predict-the-genetic-disorder",
+    "drop-columns": [
+        "Patient First Name",
+        "Family Name",
+        "Father's name"
+    ],
+    "subject-column": "Patient Id",
+    "subject-type": "Patient",
+    "labels": [
+        "Genetic Disorder",
+        "Disorder Subclass"
+    ],
+    "target-label-values": [
+        [
+            "Mitochondrial genetic inheritance disorders",
+            "Single-gene inheritance diseases",
+            "Multifactorial genetic inheritance disorders"
+        ],
+        [
+            "Leber's hereditary optic neuropathy",
+            "Leigh syndrome",
+            "Mitochondrial myopathy",
+            "Tay-Sachs",
+            "Diabetes",
+            "Cystic fibrosis",
+            "Hemochromatosis",
+            "Alzheimer's",
+            "Cancer"
+        ]
+    ],
+    "privacy-labels": {
+        "Patient Age": [0,14,6.988876732,4.324620684],
+		"Blood cell count (mcL)": [4.092727034,5.60982897,4.899184054,0.199557857],
+		"White Blood cell count (thousand per microliter)": [3,12,7.494205799,2.648636895],
+		"Respiratory Rate (breaths/min)": ["Tachypnea",0.446014986],
+		"Heart Rate (rates/min": ["Tachycardia",0.444425522],
+		"Follow-up": ["High",0.448172116],
+		"Birth asphyxia": ["Yes",0.230869664],
+		"Autopsy shows birth defect (if applicable)": ["Yes",0.154632153],
+		"Folic acid details (peri-conceptional)": ["Yes",0.457254768],
+		"H/O serious maternal illness": ["Yes",0.448512716],
+		"H/O radiation exposure (x-ray)": ["Yes",0.228201635],
+		"H/O substance abuse": ["Yes",0.22513624],
+		"Assisted conception IVF/ART": ["Yes",0.453735241],
+		"History of anomalies in previous pregnancies": ["Yes",0.457992734],
+		"No. of previous abortion": [0,0.179950045],
+		"Birth defects": ["Multiple",0.450726612],
+		"Blood test result": ["abnormal",0.223262943]
+    },
+    "include-labels": false,
+    "continuous-features": [
+        "Patient Age",
+        "Blood cell count (mcL)",
+        "Mother's age",
+        "Father's age",
+        "No. of previous abortion",
+        "White Blood cell count (thousand per microliter)"
+    ],
+    "continuous-margin": 0.1,
+    "types": {
+        "Patient Age": "Patient Age",
+        "Genes in mother's side": "Genes in mother's side",
+        "Inherited from father": "Inherited from father",
+        "Maternal gene": "Maternal gene",
+        "Paternal gene": "Paternal gene",
+        "Blood cell count (mcL)": "Blood cell count (mcL)",
+        "Mother's age": "Mother's age",
+        "Father's age": "Father's age",
+        "Institute Name": "Institute Name",
+        "Status": "Status",
+        "Respiratory Rate (breaths/min)": "Respiratory Rate (breaths/min)",
+        "Heart Rate (rates/min": "Heart Rate (rates/min",
+        "Test 1": "Test 1",
+        "Test 2": "Test 2",
+        "Test 3": "Test 3",
+        "Test 4": "Test 4",
+        "Test 5": "Test 5",
+        "Parental consent": "Parental consent",
+        "Follow-up": "Follow-up",
+        "Gender": "Gender",
+        "Birth asphyxia": "Birth asphyxia",
+        "Autopsy shows birth defect (if applicable)": "Autopsy shows birth defect (if applicable)",
+        "Place of birth": "Place of birth",
+        "Folic acid details (peri-conceptional)": "Folic acid details (peri-conceptional)",
+        "H/O serious maternal illness": "H/O serious maternal illness",
+        "H/O radiation exposure (x-ray)": "H/O radiation exposure (x-ray)",
+        "H/O substance abuse": "H/O substance abuse",
+        "Assisted conception IVF/ART": "Assisted conception IVF/ART",
+        "History of anomalies in previous pregnancies": "History of anomalies in previous pregnancies",
+        "No. of previous abortion": "No. of previous abortion",
+        "Birth defects": "Birth defects",
+        "White Blood cell count (thousand per microliter)": "White Blood cell count (thousand per microliter)",
+        "Blood test result": "Blood test result",
+        "Symptom 1": "Symptom 1",
+        "Symptom 2": "Symptom 2",
+        "Symptom 3": "Symptom 3",
+        "Symptom 4": "Symptom 4",
+        "Symptom 5": "Symptom 5",
+        "Genetic Disorder": "Genetic Disorder",
+        "Disorder Subclass": "Disorder Subclass"
+    },
+    "continuous-ranges": {
+        "Patient Age": [
+            -1.4000000000000001,
+            15.4
+        ],
+        "Blood cell count (mcL)": [
+            3.9410168408723725,
+            5.761539164099805
+        ],
+        "Mother's age": [
+            14.7,
+            54.3
+        ],
+        "Father's age": [
+            15.6,
+            68.4
+        ],
+        "Test 1": [
+            0.0,
+            0.0
+        ],
+        "Test 2": [
+            0.0,
+            0.0
+        ],
+        "Test 3": [
+            0.0,
+            0.0
+        ],
+        "Test 4": [
+            1.0,
+            1.0
+        ],
+        "Test 5": [
+            0.0,
+            0.0
+        ],
+        "No. of previous abortion": [
+            -0.4,
+            4.4
+        ],
+        "White Blood cell count (thousand per microliter)": [
+            2.1,
+            12.9
+        ]
+    },
+    "synner": {
+        "Patient Id": [
+            "replicate",
+            0.0,
+            "link_random_uuid",
+            "Patient Id"
+        ],
+        "Patient Age": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "Genes in mother's side": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Inherited from father": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Maternal gene": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Paternal gene": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Blood cell count (mcL)": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            6,
+            "positive"
+        ],
+        "Patient First Name": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Family Name": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Father's name": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Mother's age": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "Father's age": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "Institute Name": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Status": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Respiratory Rate (breaths/min)": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Heart Rate (rates/min": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Test 1": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Test 2": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Test 3": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Test 4": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Test 5": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Parental consent": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Follow-up": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Gender": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Birth asphyxia": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Autopsy shows birth defect (if applicable)": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Place of birth": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Folic acid details (peri-conceptional)": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "H/O serious maternal illness": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "H/O radiation exposure (x-ray)": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "H/O substance abuse": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Assisted conception IVF/ART": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "History of anomalies in previous pregnancies": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "No. of previous abortion": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "Birth defects": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "White Blood cell count (thousand per microliter)": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            6,
+            "positive"
+        ],
+        "Blood test result": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Symptom 1": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Symptom 2": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Symptom 3": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Symptom 4": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Symptom 5": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Genetic Disorder": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "Disorder Subclass": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ]
+    }
+}

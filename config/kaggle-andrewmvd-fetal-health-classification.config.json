@@ -1,0 +1,320 @@
+{
+    "datapath": "../datasets",
+    "embdpath": "../embeddings",
+    "datafolder": "kaggle-andrewmvd-fetal-health-classification",
+    "dataset": "kaggle-andrewmvd-fetal-health-classification",
+    "drop-columns": [],
+    "subject-column": "ROWID",
+    "subject-type": "ROWID",
+    "labels": [
+        "fetal_health"
+    ],
+    "target-label-values": [
+        [
+            1,
+            2,
+            3
+        ]
+    ],
+    "privacy-labels": {
+        "histogram_tendency": [1,0.3989],
+		"histogram_number_of_zeroes": [1,0.1752],
+		"histogram_number_of_peaks": [5,0.0987],
+		"baseline_value": [106,159,133.3936916,9.590769385],
+		"abnormal_short_term_variability": [12,86,47.34521028,17.27392322]
+    },
+    "include-labels": false,
+    "continuous-features": [
+        "baseline_value",
+        "accelerations",
+        "fetal_movement",
+        "uterine_contractions",
+        "light_decelerations",
+        "severe_decelerations",
+        "prolongued_decelerations",
+        "abnormal_short_term_variability",
+        "mean_value_of_short_term_variability",
+        "percentage_of_time_with_abnormal_long_term_variability",
+        "mean_value_of_long_term_variability",
+        "histogram_width",
+        "histogram_min",
+        "histogram_max",
+        "histogram_number_of_peaks",
+        "histogram_number_of_zeroes",
+        "histogram_mode",
+        "histogram_mean",
+        "histogram_median",
+        "histogram_variance"
+    ],
+    "continuous-margin": 0.1,
+    "continuous-ranges": {
+        "accelerations": [
+            -0.0019,
+            0.0209
+        ],
+        "fetal_movement": [
+            -0.048100000000000004,
+            0.5291
+        ],
+        "uterine_contractions": [
+            -0.0015,
+            0.0165
+        ],
+        "light_decelerations": [
+            -0.0015,
+            0.0165
+        ],
+        "severe_decelerations": [
+            -0.0001,
+            0.0011
+        ],
+        "prolongued_decelerations": [
+            -0.0005,
+            0.0055
+        ],
+        "abnormal_short_term_variability": [
+            4.5,
+            94.5
+        ],
+        "mean_value_of_short_term_variability": [
+            -0.48000000000000004,
+            7.68
+        ],
+        "percentage_of_time_with_abnormal_long_term_variability": [
+            -9.1,
+            100.1
+        ],
+        "mean_value_of_long_term_variability": [
+            -5.07,
+            55.77
+        ],
+        "histogram_width": [
+            -14.7,
+            197.7
+        ],
+        "histogram_min": [
+            39.1,
+            169.9
+        ],
+        "histogram_max": [
+            110.4,
+            249.6
+        ],
+        "histogram_number_of_peaks": [
+            -1.8,
+            19.8
+        ],
+        "histogram_number_of_zeroes": [
+            -1.0,
+            11.0
+        ],
+        "histogram_mode": [
+            47.3,
+            199.7
+        ],
+        "histogram_mean": [
+            62.1,
+            192.9
+        ],
+        "histogram_median": [
+            66.1,
+            196.9
+        ],
+        "histogram_variance": [
+            -26.900000000000002,
+            295.9
+        ],
+        "baseline_value": [
+            100.6,
+            165.4
+        ]
+    },
+    "types": {
+        "baseline_value": "baseline_value",
+        "accelerations": "accelerations",
+        "fetal_movement": "fetal_movement",
+        "uterine_contractions": "uterine_contractions",
+        "light_decelerations": "light_decelerations",
+        "severe_decelerations": "severe_decelerations",
+        "prolongued_decelerations": "prolongued_decelerations",
+        "abnormal_short_term_variability": "abnormal_short_term_variability",
+        "mean_value_of_short_term_variability": "mean_value_of_short_term_variability",
+        "percentage_of_time_with_abnormal_long_term_variability": "percentage_of_time_with_abnormal_long_term_variability",
+        "mean_value_of_long_term_variability": "mean_value_of_long_term_variability",
+        "histogram_width": "histogram_width",
+        "histogram_min": "histogram_min",
+        "histogram_max": "histogram_max",
+        "histogram_number_of_peaks": "histogram_number_of_peaks",
+        "histogram_number_of_zeroes": "histogram_number_of_zeroes",
+        "histogram_mode": "histogram_mode",
+        "histogram_mean": "histogram_mean",
+        "histogram_median": "histogram_median",
+        "histogram_variance": "histogram_variance",
+        "histogram_tendency": "histogram_tendency",
+        "fetal_health": "fetal_health"
+    },
+    "synner": {
+        "ROWID": [
+            "replicate",
+            0.0,
+            "link_random_uuid",
+            "ROWID"
+        ],
+        "baseline_value": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "accelerations": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            3,
+            "positive"
+        ],
+        "fetal_movement": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            3,
+            "positive"
+        ],
+        "uterine_contractions": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            3,
+            "positive"
+        ],
+        "light_decelerations": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            3,
+            "positive"
+        ],
+        "severe_decelerations": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            3,
+            "positive"
+        ],
+        "prolongued_decelerations": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            3,
+            "positive"
+        ],
+        "abnormal_short_term_variability": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "mean_value_of_short_term_variability": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            1,
+            "positive"
+        ],
+        "percentage_of_time_with_abnormal_long_term_variability": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "mean_value_of_long_term_variability": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            1,
+            "positive"
+        ],
+        "histogram_width": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "histogram_min": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "histogram_max": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "histogram_number_of_peaks": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "histogram_number_of_zeroes": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "histogram_mode": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "histogram_mean": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "histogram_median": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "histogram_variance": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "histogram_tendency": [
+            "replicate",
+            0.0,
+            "continuous_weighted_average",
+            0,
+            "positive"
+        ],
+        "_fetal_health": [
+            "replicate",
+            0.0,
+            "categorical_weighted_random_choice"
+        ],
+        "fetal_health": [
+            "replicate",
+            1.0
+        ]
+    }
+}
